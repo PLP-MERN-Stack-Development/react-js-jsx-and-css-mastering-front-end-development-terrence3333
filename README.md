@@ -4,7 +4,7 @@ A fully functional, responsive React application built with Vite, React hooks, a
 
 ## 🚀 Live Demo
 
-**Deployed URL:** [Add your deployment URL here]
+**Deployed URL: https://react-js-jsx-and-css-mastering-fron-ten-kappa.vercel.app
 
 ## 📋 Table of Contents
 
@@ -93,8 +93,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone [your-github-classroom-repo-url]
-   cd [repository-name]
+   git clone [[your-github-classroom-repo-url](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-terrence3333.git)]
+   cd [[repository-name](https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-terrence3333.git)]
    ```
 
 2. **Install dependencies**
@@ -243,9 +243,7 @@ Self-contained component with internal state management.
 
 ## 📸 Screenshots
 
-### Desktop View - Light Mode
-![Desktop Light Mode](./screenshots/desktop-light.png)
-*Task Manager interface with light theme on desktop*
+
 
 
 ## ✅ Assignment Requirements
