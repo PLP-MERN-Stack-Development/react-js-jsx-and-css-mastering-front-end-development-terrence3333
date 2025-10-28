@@ -243,7 +243,7 @@ Self-contained component with internal state management.
 
 ## 📸 Screenshots
 
-
+https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-terrence3333/blob/main/Screenshot%202025-10-28%20233748.png
 
 
 ## ✅ Assignment Requirements
@@ -322,7 +322,7 @@ npm run build
 # Deploy the 'dist' folder to gh-pages branch
 ```
 
-**Deployed URL:** [Add your deployment URL here after deploying]
+**Deployed URL:https://react-js-jsx-and-css-mastering-fron-ten-kappa.vercel.app
 
 ## 🐛 Known Issues
 
