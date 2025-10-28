@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { ThemeProvider } from './context/ThemeContext';
+import Layout from './components/Layout';
+import TaskManager from './components/TaskManager';
+import ApiDataDisplay from './components/ApiDataDisplay';
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <ThemeProvider>
+      <Layout>
+        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <div className="mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+              Welcome to TaskMaster Pro
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">
+              Manage your tasks efficiently and explore data from our API integration.
+            </p>
+          </div>
 
-export default App
+          <div id="tasks" className="mb-8">
+            <TaskManager />
+          </div>
+
+          <div id="api">
+            <ApiDataDisplay />
+          </div>
+        </div>
+      </Layout>
+    </ThemeProvider>
+  );
+};
+
+export default App;
